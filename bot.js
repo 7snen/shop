@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-const prefix = "." // تقدر تغيره
+const prefix = "&" // تقدر تغيره
 	const blow = new Set()
 	client.on('message', message => {
   var price = ''
